@@ -1,0 +1,75 @@
+/* Fundo escuro que cobre a tela toda */
+.modal-cookie {
+    display: none; /* Começa escondido, o JS vai mostrar */
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Efeito de desfoque/escurecido atrás */
+    align-items: center;
+    justify-content: center;
+}
+
+/* Caixa branca/central do alerta */
+.conteudo-modal {
+    background-color: #1e1e24; /* Um tom escuro que combina com tema gamer */
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border: 2px solid #be9e0b;
+    position: relative;
+    font-family: sans-serif;
+}
+
+/* O botão de fechar (X) */
+.fechar-modal {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #aaa;
+    border: 0;
+    background: transparent;
+}
+.fechar-modal:hover {
+    color: #be9e0b;
+}
+
+/* Caixa de destaque do Cupom */
+.cupom-destaque {
+    background-color: #be9e0b;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    margin: 20px auto;
+    border-style: dashed;
+    border-width: 2px;
+    width: 200px;
+    letter-spacing: 2px;
+}
+
+/* Botão de confirmação */
+.botao-modal {
+    background-color: #be9e0b;
+    color: #111;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.botao-modal:hover {
+    background-color: #d3b52c;
+    transform: scale(1.05);
+}
+
